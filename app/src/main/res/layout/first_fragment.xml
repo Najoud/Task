@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+        <!--    <LinearLayout-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="70dp"-->
+
+        <!--        >-->
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+
+            android:paddingTop="20dp"
+            android:text="تغير كلمة المرور"
+            android:textSize="20sp" />
+
+        <TableRow
+            android:id="@+id/hr"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="60dp"
+
+            android:background="#444"
+            android:paddingTop="60dp">
+
+
+        </TableRow>
+
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/arrow" />
+
+
+        <EditText
+            android:id="@+id/phonenumber"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150sp"
+            android:hint="                             الهاتف"
+            android:inputType="phone"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="157sp"
+            android:src="@drawable/call" />
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/countryCode_picker"
+            android:layout_width="170dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="155sp"
+            app:ccp_areaCodeDetectedCountry="true"
+            app:ccp_autoDetectCountry="true" />
+
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="350dp"
+            android:gravity="center"
+
+            android:text="التالي"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+
+        <!--    </LinearLayout>-->
+
+    </RelativeLayout>
+</layout>

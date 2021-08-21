@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "101540402302",
+    "project_id": "send-code-42e21",
+    "storage_bucket": "send-code-42e21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101540402302:android:82e9229c206bd5e356342f",
+        "android_client_info": {
+          "package_name": "com.example.task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101540402302-pjcn5h5ii6o6h8gm1f3mf2vs6aabb7qr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtEG3LOjUgH2c2sXQBf0rBxnd4ressbGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101540402302-pjcn5h5ii6o6h8gm1f3mf2vs6aabb7qr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
